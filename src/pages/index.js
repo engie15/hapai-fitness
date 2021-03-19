@@ -26,7 +26,7 @@ const IndexPage = () => (
         <div class="columns is-mobile has-text-white">
           <div class="column is-size-3 has-text-centered">
             <h1>Nau mai, haere mai ki Hāpai Fitness</h1>
-            <p>Our website is coming...</p>
+            <p>Our website is coming soon...</p>
           </div>
         </div>
       </div>
