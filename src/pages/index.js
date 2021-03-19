@@ -6,31 +6,32 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    
+    <div class="container">
       <div class="columns is-mobile has-text-white" style={{backgroundColor: `#000`}}>
         <div class="column" style={{backgroundColor: `#000`}} ><SEO title="Home" /></div>
       </div>
-      <div class="level is-mobile has-text-white is-centered">
-        <div class="level-item is-centered">
-          <StaticImage
-            src="../images/HapaiFitnessNoOutline.png"
-            width={400}
-            quality={100}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Hāpai Fitness"
-            style={{ marginBottom: `1.45rem` }}
-          />
+    </div>
+    <div class="container">
+      <div class="columns is-mobile has-text-white" style={{backgroundColor: `#000`}}>
+        <div class="column is-centered" style={{backgroundColor: `#000`}}>
+        <figure class="image is-16by9">
+            <StaticImage class="has-ratio" width="640" height="360" src="../images/HapaiFitnessNoOutline.png" />
+        </figure>
+
         </div>
       </div>
+    </div>
     <div class="section" style={{backgroundColor: `#000`}}>
+      <div class="container">
         <div class="columns is-mobile has-text-white">
           <div class="column is-size-3 has-text-centered">
             <h1>Nau mai, haere mai ki Hāpai Fitness</h1>
             <p>Our website is coming...</p>
           </div>
         </div>
+      </div>
     </div>
-    
+    <div class="container">
       <div class="level is-mobile has-text-white">
         <div class="level-item has-text-centered">
             <a href="https://www.facebook.com/HapaiFitness">
@@ -56,7 +57,8 @@ const IndexPage = () => (
               />
             </a>
         </div>
-      </div>  
+      </div>
+    </div>    
   </Layout>
 )
 
