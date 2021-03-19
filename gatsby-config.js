@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Hāpai Fitness`,
+    description: `Hāpai Fitness will help you elevate your energy levels and get you thinking about what you can do to improve your overall health and fitness to tackle lifes obstacles and enjoy the body you feel every day.`,
+    author: `@hāpaifitness`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
