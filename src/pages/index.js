@@ -6,12 +6,12 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <div class="container">
+    
       <div class="columns is-mobile has-text-white" style={{backgroundColor: `#000`}}>
         <div class="column" style={{backgroundColor: `#000`}} ><SEO title="Home" /></div>
       </div>
-      <div class="level is-mobile has-text-white" style={{backgroundColor: `#000`}}>
-        <div class="level-item" style={{backgroundColor: `#000`}}>
+      <div class="level is-mobile has-text-white is-centered">
+        <div class="level-item is-centered">
           <StaticImage
             src="../images/HapaiFitnessNoOutline.png"
             width={400}
@@ -22,18 +22,15 @@ const IndexPage = () => (
           />
         </div>
       </div>
-    </div>
     <div class="section" style={{backgroundColor: `#000`}}>
-      <div class="container">
         <div class="columns is-mobile has-text-white">
           <div class="column is-size-3 has-text-centered">
             <h1>Nau mai, haere mai ki Hāpai Fitness</h1>
             <p>Our website is coming...</p>
           </div>
         </div>
-      </div>
     </div>
-    <div class="container">
+    
       <div class="level is-mobile has-text-white">
         <div class="level-item has-text-centered">
             <a href="https://www.facebook.com/HapaiFitness">
@@ -59,8 +56,7 @@ const IndexPage = () => (
               />
             </a>
         </div>
-      </div>
-    </div>    
+      </div>  
   </Layout>
 )
 
